@@ -46,6 +46,9 @@ def print_output(path_to_book):
     characters_count_sorted = sorting_chars_dict(char_count)
     #print(characters_count_sorted)
 
+    #
+    # del characters_count_sorted[" "]
+
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
     print("----------- Word Count ----------")
